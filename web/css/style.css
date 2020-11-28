@@ -1,0 +1,53 @@
+body{
+background-color: #3f50b5;
+background-image: url("/img/eyes.svg");
+
+color: white;
+}
+#home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#inputs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h2{
+    margin: 2px;
+}
+#firstNum{
+    font-size: large;
+    margin: 2px;
+    background: rgba(2, 9, 120, 0.1);
+    border: 3px;
+    border-style: solid;
+    border-color: rgba(30, 45, 160, 0.6);
+    color: white;
+}
+#secondNum{
+    font-size: large;
+    margin: 2px;
+    background: rgba(2, 9, 120, 0.1);
+    border: 3px;
+    border-style: solid;
+    border-color: rgba(30, 45, 160, 0.6);
+    color: white;
+    
+}
+#btn{
+    width: auto;
+    height: auto;
+    border: 5px;
+    border-radius: 5px;
+    font-size: x-large;
+    background-color: #2196f3;
+    border: #3f50b5;
+}
+::placeholder{
+    color: black;
+
+}
